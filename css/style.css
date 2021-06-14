@@ -1,0 +1,55 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Common Part Start */
+
+img {
+    width: 100%;
+}
+h3 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.link-button {
+    display: inline-block;
+    background-image: linear-gradient(270deg, #B95C50, #3B0404);
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.color-highlight {
+    color: #F8AFA6;
+}
+
+.left-part {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+/* Common Part End */
+
+
+.header {
+    width: 100%;
+    overflow: hidden;
+    background-image: url('../img/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.me {
+    margin-top: 70px;
+}
+
+
