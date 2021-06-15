@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -6,7 +7,9 @@ body {
 
 img {
     width: 100%;
+    height: 500px;
 }
+
 h3 {
     font-size: 30px;
 }
@@ -35,21 +38,117 @@ h2 {
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    margin-top: 50px;
+}
+
+section {
+    height: 600px;
 }
 
 /* Common Part End */
 
 
+/* Header Part Start */
 .header {
     width: 100%;
-    overflow: hidden;
     background-image: url('../img/header-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.me {
-    margin-top: 70px;
+.header #header {
+    padding: 60px 0;
 }
 
+/* Header Part End */
 
+/* Biography Part Start */
+.biography {
+    background-image: url('../img/biography-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: left;
+}
+.biography #biography {
+    padding: 150px 0;
+}
+/* Biography Part End */
+
+/* Latest Work Start */
+.latest-work h3 {
+    text-align: center;
+    padding-top: 80px;
+}
+.latest-work {
+    width: 100%;
+    margin: 10px auto;
+    background-image: url('../img/latest-work-bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.work {
+    width: 30%;
+    float: left;
+}
+.work img {
+    width: 90%;
+    height: 100%;
+    margin-left: 22%;
+    padding-left: 2%;
+}
+/* Latest Work End */
+
+/* Client Area Start */
+.client-area {
+    width: 100%;
+    height: 500px;
+    background-image: url('../img/footer-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.client-area h2,
+.client-area h3,
+.client-area h4,
+.client-area p {
+    text-align: center;
+}
+.client-area p {
+    width: 400px;
+    margin: auto;
+}
+.contact {
+    background-color: #FF4992;
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: white;
+}
+.contact h3,
+.contact p {
+    margin: 0;
+}
+.contact h3 {
+    font-size: 30px;
+    
+}
+/* Client Area End */
+
+/* Footer Section Start */
+footer {
+    margin-bottom: 30px;
+}
+footer p {
+    text-align: center;
+    color: rgb(175, 173, 173);
+    letter-spacing: 3px;
+}
+
+footer p b {
+    color: rgb(236, 182, 45);
+}
+/* Footer Section End */
